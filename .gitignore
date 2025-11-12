@@ -1,0 +1,36 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Pastas de projetos antigos/desnecessários
+ferry_bot/
+ferry_bot_mobile/
+ferry_bot_mobile_new/
+ferry_bot_web/
+ferry-bot-api-BROKEN/
+action_plan.md
+agent_instructions.md
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (será ignorado pelos .gitignore individuais)
+node_modules/
+
+# Vendor (Laravel)
+vendor/
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache e builds
+dist/
+build/
+*.cache
+
